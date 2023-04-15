@@ -1,0 +1,476 @@
+
+/* Extra small devices ( portrait phones, 575px and down) */
+@media only screen and (max-width: 575.98px) {
+	/*reuseable component*/
+	.pb_100 {
+		padding-bottom: 70px;
+	}
+	.section_title {
+	    font-size: 25px;
+	}
+	/*header start*/
+	.header {
+	    padding: 20px 0;
+	}
+	.logo {
+		font-size: 25px;
+	}
+	.toggle_btn {
+	    color: #8e8e8e;
+	    border-color: #8e8e8e;
+	}
+	.navbar-toggler:focus {
+	    box-shadow: 0 0 0 0.15rem;
+	}
+	.nav_menu {
+	    text-align: right;
+	}
+	.nav_menu ul li {
+	    margin-top: 10px;
+	}
+	.nav_menu ul li a {
+	     margin-right: 0; 
+	}
+	.search_dropdown[data-bs-popper] {
+	    left: 0;
+	    right: 0;
+	    margin-top: 0; 
+	}
+	.search_dropdown {
+	     min-width: 0;
+	}
+	/*slider start*/
+	.slider_content {
+	    margin: 90px 0;
+	    text-align: center;
+	}
+	.slider_content h2 {
+	    font-size: 40px;
+	}
+	.slider_content p {
+		margin: 30px 0px 40px;
+	}
+	.slider_btn {
+	    padding: 10px 20px;
+	    font-size: 15px;
+	}
+	.slider_btn span {
+	    margin-left: 13px;
+	}
+	/*service start*/
+	.service_item {
+	    margin-top: 80px;
+	}
+	.service_item p {
+	    margin: 20px 0;
+	}
+	/*about start*/
+	.about {
+	    padding-bottom: 70px;
+	}
+	.about_text {
+		text-align: center;
+	}
+	.about_text .section_title {
+	    margin-top: 25px;
+	    margin-bottom: 25px;
+	}
+	.about_text .section_disc {
+	    margin-bottom: 25px;
+	}
+	/*portfolio start*/
+	.portfolio .section_title {
+	    margin-bottom: 60px;
+	}
+	/*why choose start*/
+	.whyChoose .section_title {
+	    margin-bottom: 30px;
+	}
+	.whychoose_wrap {
+	    margin-top: 30px;
+	    text-align: center;
+	}
+	.whychoose_icon i {
+	    font-size: 40px;
+	}
+	.why_title {
+	    margin-top: 9px;
+	    font-size: 17px;
+	}
+	.why_desc p {
+	    margin: 20px 0;
+	}
+	/*worker start*/
+	.worker_profile {
+	    margin-top: 60px;
+	}
+	.profile_text {
+	    padding: 15px 20px;
+	}
+	/*pricing start*/
+	.pricing_wrapper {
+	    margin-top: 65px;
+	}
+	.pricing_item {
+	    padding: 0px 25px 35px;
+	}
+	.price {
+	    margin: 30px 0 0;
+	}
+	.pricing_item ul {
+	    margin: 30px 0 30px;
+	}
+	.pricing_item li {
+	    margin-bottom: 14px;
+	}
+	 .pricing_btn {
+	    padding: 12px 30px;
+	}
+	/*cta start*/
+	.cta_text {
+	    margin-top: 0;
+	}
+	/*testimonial start*/
+	.testimonial {
+	    padding-top: 70px;
+	}
+	.testimonial_wrap {
+	    padding: 25px 18px;
+	}
+	.test_text_wrap h2 {
+		margin-top: 15px !important;
+	}
+	.co_founder {
+	    margin: 8px 0;
+	}
+	.test_desc {
+	    margin: 10px 0 0;
+	}
+	.test_button_wrap {
+	    padding: 10px 0;
+	    margin-top: 25px;
+	}
+	.test_button_wrap, 
+	.testimonial_prev_text, 
+	.testimonial_next_text {
+	    writing-mode: horizontal-tb;
+	    text-orientation: initial;
+	    height: auto;
+	}
+	.testimonial_prev,
+	.testimonial_next {
+	    margin: 0px;
+	}
+	.testVer_line {
+	    display: inline-block;
+	    margin: 0 60px;
+	    transform: rotate(0deg); 
+	}
+	/*contact Start*/
+	.contact_form {
+	    margin-top: 20px;
+	}
+	.contact_form input {
+	    margin-top: 14px;
+	}
+	.contact_form textarea {
+	    margin-top: 10px;
+	}
+	/*footer start*/
+	.social_wrapper li a {
+	    width: 38px;
+	    height: 38px;
+	    font-size: 20px;
+	    line-height: 38px;
+	}
+	.footer_menu li:not(:last-child) {
+	    margin-right: 25px;
+	}
+}
+
+/* Small devices >> sm (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+	body {
+		font-size: 15px;
+	}
+	/*reuseable component*/
+	.pb_100 {
+		padding-bottom: 70px;
+	}
+	.section_title {
+	    font-size: 25px;
+	}
+	/*header start*/
+	.header {
+	    padding: 20px 0;
+	}
+	.logo {
+		font-size: 20px;
+	}
+	.toggle_btn {
+	    color: #8e8e8e;
+	    border-color: #8e8e8e;
+	}
+	.navbar-toggler:focus {
+	    box-shadow: 0 0 0 0.15rem;
+	}
+	.nav_menu {
+	    text-align: right;
+	}
+	.nav_menu ul li {
+	    margin-top: 10px;
+	}
+	.nav_menu ul li a {
+	     margin-right: 0; 
+	}
+	.search_dropdown[data-bs-popper] {
+	    left: 0;
+	    right: 0;
+	    margin-top: 0; 
+	}
+	.search_dropdown {
+	     min-width: 0;
+	}
+	/*slider start*/
+	.slider_content {
+	    margin: 100px 0;
+	}
+	.slider_content h2 {
+	    font-size: 40px;
+	}
+	.slider_content p {
+		margin: 30px 0px 40px;
+	}
+	.slider_btn {
+	    padding: 10px 20px;
+	    font-size: 15px;
+	}
+	.slider_btn span {
+	    margin-left: 13px;
+	}
+	/*service start*/
+	.service_item {
+	    margin-top: 80px;
+	}
+	.service_item p {
+	    margin: 20px 0;
+	}
+	/*about start*/
+	.about {
+	    padding-bottom: 70px;
+	}
+	.about_text {
+		text-align: center;
+	}
+	.about_text .section_title {
+	    margin-top: 25px;
+	    margin-bottom: 25px;
+	}
+	.about_text .section_disc {
+	    margin-bottom: 25px;
+	}
+	/*portfolio start*/
+	.portfolio .section_title {
+	    margin-bottom: 60px;
+	    font-size: 25px;
+	}
+	/*why choose start*/
+	.whyChoose .section_title {
+	    margin-bottom: 30px;
+	}
+	.whychoose_wrap {
+	    margin-top: 30px;
+	}
+	.whychoose_icon i {
+	    font-size: 40px;
+	}
+	.why_title {
+	    margin-top: 9px;
+	    font-size: 17px;
+	}
+	.why_desc p {
+	    margin: 20px 0;
+	}
+	/*worker start*/
+	.worker_profile {
+	    margin-top: 60px;
+	}
+	/*worker start*/
+	.profile_text {
+	    padding: 15px 20px;
+	}
+	/*pricing start*/
+	.pricing_wrapper {
+	    margin-top: 65px;
+	}
+	.pricing_item {
+	    padding: 0px 25px 35px;
+	}
+	.price {
+	    margin: 30px 0 0;
+	}
+	.pricing_item ul {
+	    margin: 30px 0 30px;
+	}
+	.pricing_item li {
+	    margin-bottom: 14px;
+	}
+	.pricing_btn {
+	    padding: 12px 30px;
+	}
+	/*cta start*/
+	.cta_text {
+	    margin-top: 0;
+	}
+	/*testimonial start*/
+	.testimonial {
+	    padding-top: 70px;
+	}
+	.testimonial_wrap {
+	    padding: 25px 18px;
+	}
+	.test_text_wrap h2 {
+		margin-top: 15px !important;
+	}
+	.co_founder {
+	    margin: 8px 0;
+	}
+	.test_desc {
+	    margin: 10px 0 0;
+	}
+	.test_button_wrap {
+	    padding: 10px 0;
+	    margin-top: 25px;
+	}
+	.test_button_wrap, 
+	.testimonial_prev_text, 
+	.testimonial_next_text {
+	    writing-mode: horizontal-tb;
+	    text-orientation: initial;
+	    height: auto;
+	}
+	.testimonial_prev,
+	.testimonial_next {
+	    margin: 0px;
+	}
+	.testVer_line {
+	    display: inline-block;
+	    margin: 0 170px;
+	    transform: rotate(0deg); 
+	}
+	/*contact Start*/
+	.contact_form {
+	    margin-top: 20px;
+	}
+	/*footer start*/
+	.footer_menu li:not(:last-child) {
+	    margin-right: 25px;
+	}
+}
+
+/* Medium devices >> md (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.toggle_btn {
+	    color: #8e8e8e;
+	    border-color: #8e8e8e;
+	}
+	.navbar-toggler:focus {
+	    box-shadow: 0 0 0 0.15rem;
+	}
+	.nav_menu {
+	    text-align: right;
+	}
+	.nav_menu ul li {
+	    margin-top: 10px;
+	}
+	.nav_menu ul li a {
+	     margin-right: 0; 
+	}
+	.search_dropdown[data-bs-popper] {
+	    left: 0;
+	    right: 0;
+	    margin-top: 0; 
+	}
+	.search_dropdown {
+	     min-width: 0;
+	}
+	/*slider start*/
+	.slider_content {
+	    margin: 150px 0;
+	}
+	.slider_content h2 {
+	    font-size: 50px;
+	}
+	/*about start*/
+	
+	.about_text {
+		text-align: center;
+	}
+	.about_text .section_title {
+		margin-top: 25px;
+	}
+	.about_text .section_title, 
+	.about_text .section_disc {
+	    margin-bottom: 25px;
+	}
+	/*testimonial start*/
+	.testimonial_wrap {
+	    padding: 25px 18px;
+	}
+	.co_founder {
+	    margin: 8px 0;
+	}
+	.test_desc {
+	    margin: 14px 0 0;
+	}
+	.test_button_wrap {
+	    padding: 10px 0;
+	    margin-top: 25px;
+	}
+	.test_button_wrap, 
+	.testimonial_prev_text, 
+	.testimonial_next_text {
+	    writing-mode: horizontal-tb;
+	    text-orientation: initial;
+	    height: auto;
+	}
+	.testimonial_prev,
+	.testimonial_next {
+	    margin: 0px;
+	}
+	.testVer_line {
+	    display: inline-block;
+	    margin: 0 240px;
+	    transform: rotate(0deg); 
+	}
+	/*contact Start*/
+	.contact_form {
+	    margin-top: 50px;
+	}
+
+}
+
+/* Large devices >> lg (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+	/*slider start*/
+	.slider_content h2 {
+	    font-size: 57px;
+	}
+	/*worker start*/
+	.profile_text {
+	    padding: 15px 20px;
+	}
+	.testVer_line {
+	    margin: 80px 0;
+	}
+}
+
+/* Extra large devices >> xl (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+/* Extra Extra large devices >> xxl (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+	
+}
